@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "ncc build src/index.ts --out dist --minify",
+    "start": "ncc run src/index.ts"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.0.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "markdown-table": "^2.0.0",
+    "wakatime-client": "^2.6.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1"
+  }
+}
