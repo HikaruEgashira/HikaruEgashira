@@ -58,8 +58,7 @@ const statsToContent = (stats: any) => {
 const updateGist = async (content: string) => {
   try {
     if (!user) {
-      console.log("cannot find USER");
-      return;
+      throw new Error("cannot find GH_USER");
     }
 
     const repo = await octokit.repos.getContent({
@@ -71,9 +70,8 @@ const updateGist = async (content: string) => {
     await octokit.repos.createOrUpdateFileContents({
       owner: user,
       repo: user,
-      branch: "master",
-      message: "update README",
       path: "README.md",
+      message: "update README",
       content,
       sha: repo.data.sha,
     });
