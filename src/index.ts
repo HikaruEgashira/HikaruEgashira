@@ -57,8 +57,16 @@ const statsToContent = (stats: any) => {
  */
 const updateGist = async (content: string) => {
   try {
-    if (!user) {
-      throw new Error("cannot find GH_USER");
+    if (!githubToken || !wakatimeApiKey || !user) {
+      throw new Error(
+        `cannot find ${
+          !githubToken
+            ? "GH_TOKEN"
+            : !wakatimeApiKey
+            ? "WAKATIME_API_KEY"
+            : "GH_USER"
+        }`
+      );
     }
 
     const repo = await octokit.repos.getContent({
