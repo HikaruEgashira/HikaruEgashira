@@ -1,7 +1,5 @@
 # ---- HikaruEgashira's works ----
 
-[![](https://img.shields.io/github/followers/HikaruEgashira?style=for-the-badge)](https://github.com/HikaruEgashira)
-
 ## recent works
 
 [![](https://img.shields.io/github/stars/twin-te/twinte-front?label=Twin:te&style=for-the-badge)](https://github.com/twin-te/twinte-front)
