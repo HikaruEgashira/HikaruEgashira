@@ -28,6 +28,5 @@ jobs:
       - name: run
         run: yarn start
         env:
-          GH_USER: ${{ secrets.GH_USER }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
