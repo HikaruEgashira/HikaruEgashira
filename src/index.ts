@@ -4,7 +4,7 @@ import { Octokit } from "@octokit/rest";
 import table from "markdown-table";
 import { readFileSync } from "fs";
 
-const { GH_TOKEN: githubToken, WAKATIME_API_KEY: wakatimeApiKey, GH_USER: user } = process.env;
+const { GH_TOKEN: githubToken, WAKATIME_API_KEY: wakatimeApiKey, GITHUB_ACTOR: user } = process.env;
 
 if (!githubToken) {
   throw new Error(`cannot find "GH_TOKEN"`);
