@@ -4,7 +4,11 @@ import { Octokit } from "@octokit/rest";
 import table from "markdown-table";
 import { readFileSync } from "fs";
 
-const { GH_TOKEN: githubToken, WAKATIME_API_KEY: wakatimeApiKey, GITHUB_ACTOR: user } = process.env;
+const {
+  GH_TOKEN: githubToken,
+  WAKATIME_API_KEY: wakatimeApiKey,
+  GITHUB_ACTOR: user,
+} = process.env;
 
 if (!githubToken) {
   throw new Error(`cannot find "GH_TOKEN"`);
@@ -13,7 +17,7 @@ if (!wakatimeApiKey) {
   throw new Error(`cannot find "WAKATIME_API_KEY"`);
 }
 if (!user) {
-  throw new Error(`cannot find "GH_USER"`);
+  throw new Error(`cannot find "GITHUB_ACTOR"`);
 }
 
 const wakatime = new WakaTimeClient(wakatimeApiKey);
@@ -40,10 +44,10 @@ const generateBarChart = (percent: number, size: number) => {
  * Wakatimeのデータを
  * Readmeに表示するデータに変換
  */
-const statsToTable = (stats: any) => {
+const statsToTable = (stats: any, column = 6) => {
   const lines = [
     ["lang", "time"],
-    ...(stats.data.languages as any[]).map((data: any) => {
+    ...(stats.data.languages as any[]).splice(0, column).map((data: any) => {
       const { name, percent, text: time } = data;
 
       const line: string[] = [
@@ -54,7 +58,7 @@ const statsToTable = (stats: any) => {
       ];
       return line;
     }),
-  ].slice(0, 6);
+  ];
 
   return table(lines);
 };
