@@ -12,8 +12,6 @@
     "wakatime-client": "^2.6.0"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.22.3",
-    "jest": "^26.1.0",
-    "ts-jest": "^26.1.1"
+    "@zeit/ncc": "^0.22.3"
   }
 }

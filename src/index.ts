@@ -2,12 +2,19 @@ require("dotenv").config();
 import { WakaTimeClient, RANGE } from "wakatime-client";
 import { Octokit } from "@octokit/rest";
 import table from "markdown-table";
+import { readFileSync } from "fs";
 
-const {
-  GH_TOKEN: githubToken,
-  WAKATIME_API_KEY: wakatimeApiKey,
-  GH_USER: user,
-} = process.env;
+const { GH_TOKEN: githubToken, WAKATIME_API_KEY: wakatimeApiKey, GITHUB_ACTOR: user } = process.env;
+
+if (!githubToken) {
+  throw new Error(`cannot find "GH_TOKEN"`);
+}
+if (!wakatimeApiKey) {
+  throw new Error(`cannot find "WAKATIME_API_KEY"`);
+}
+if (!user) {
+  throw new Error(`cannot find "GH_USER"`);
+}
 
 const wakatime = new WakaTimeClient(wakatimeApiKey);
 
@@ -33,7 +40,7 @@ const generateBarChart = (percent: number, size: number) => {
  * Wakatimeのデータを
  * Readmeに表示するデータに変換
  */
-const statsToContent = (stats: any) => {
+const statsToTable = (stats: any) => {
   const lines = [
     ["lang", "time"],
     ...(stats.data.languages as any[]).map((data: any) => {
@@ -47,28 +54,16 @@ const statsToContent = (stats: any) => {
       ];
       return line;
     }),
-  ].slice(0, 5);
+  ].slice(0, 6);
 
-  return Buffer.from(table(lines)).toString("base64");
+  return table(lines);
 };
 
 /**
  * Readmeをcontentに書き換える
  */
-const updateGist = async (content: string) => {
+const updateReadme = async (content: string) => {
   try {
-    if (!githubToken || !wakatimeApiKey || !user) {
-      throw new Error(
-        `cannot find ${
-          !githubToken
-            ? "GH_TOKEN"
-            : !wakatimeApiKey
-            ? "WAKATIME_API_KEY"
-            : "GH_USER"
-        }`
-      );
-    }
-
     const repo = await octokit.repos.getContent({
       owner: user,
       repo: user,
@@ -80,24 +75,26 @@ const updateGist = async (content: string) => {
       repo: user,
       path: "README.md",
       message: "update README",
-      content,
+      content: Buffer.from(content).toString("base64"),
       sha: repo.data.sha,
     });
   } catch (error) {
-    console.error(error);
+    throw new Error(error);
   }
+};
+
+const parseContent = (table: string, layoutPath = "./LAYOUT.md") => {
+  const layout = readFileSync(layoutPath);
+  return layout.toString().split("{{ table }}").join(table);
 };
 
 /**
  * Wakatimeからデータを持ってきて
  * Readmeにpushする
  */
-async function main() {
-  const stats = await wakatime.getMyStats({ range: RANGE.LAST_7_DAYS });
-  const content = statsToContent(stats);
-  await updateGist(content);
-}
-
 (async () => {
-  await main();
+  const stats = await wakatime.getMyStats({ range: RANGE.LAST_7_DAYS });
+  const table = statsToTable(stats);
+  const content = parseContent(table);
+  await updateReadme(content);
 })();
