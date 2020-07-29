@@ -2,15 +2,15 @@
 
 ## recent works
 
-[![](https://img.shields.io/github/stars/twin-te/twinte-front?label=Twin:te&style=for-the-badge)](https://github.com/twin-te/twinte-front)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=twin-te&repo=twinte-front)](https://github.com/HikaruEgashira/github-readme-stats)
 
 ## this week's works
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| Rust        | 4 hrs 8 mins   | ███████▏░░░░░░░░░░░░░ |  34.1% |
-| TypeScript  | 2 hrs 22 mins  | ████░░░░░░░░░░░░░░░░░ |  19.5% |
-| Vue.js      | 2 hrs 3 mins   | ███▌░░░░░░░░░░░░░░░░░ |  16.9% |
-| YAML        | 58 mins        | █▋░░░░░░░░░░░░░░░░░░░ |   8.0% |
-| Stylus      | 47 mins        | █▎░░░░░░░░░░░░░░░░░░░ |   6.4% |
-| JSON        | 24 mins        | ▋░░░░░░░░░░░░░░░░░░░░ |   3.3% |
+| Rust        | 4 hrs 8 mins   | ██████▌░░░░░░░░░░░░░░ |  31.5% |
+| TypeScript  | 2 hrs 54 mins  | ████▋░░░░░░░░░░░░░░░░ |  22.1% |
+| Vue.js      | 2 hrs 14 mins  | ███▌░░░░░░░░░░░░░░░░░ |  17.1% |
+| YAML        | 54 mins        | █▍░░░░░░░░░░░░░░░░░░░ |   6.8% |
+| Stylus      | 52 mins        | █▍░░░░░░░░░░░░░░░░░░░ |   6.6% |
+| JSON        | 33 mins        | ▉░░░░░░░░░░░░░░░░░░░░ |   4.3% |
