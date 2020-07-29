@@ -2,7 +2,7 @@
 
 ## recent works
 
-[![](https://img.shields.io/github/stars/twin-te/twinte-front?label=Twin:te&style=for-the-badge)](https://github.com/twin-te/twinte-front)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=twin-te&repo=twinte-front&theme=onedark)](https://github.com/HikaruEgashira/github-readme-stats)
 
 ## this week's works
 
