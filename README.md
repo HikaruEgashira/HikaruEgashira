@@ -2,15 +2,15 @@
 
 ## recent works
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=twin-te&repo=twinte-front)](https://github.com/HikaruEgashira/github-readme-stats)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=twin-te&repo=twinte-front)](https://github.com/twin-te/twinte-front)
 
 ## this week's works
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| Rust        | 4 hrs 8 mins   | ██████▌░░░░░░░░░░░░░░ |  31.5% |
-| TypeScript  | 2 hrs 54 mins  | ████▋░░░░░░░░░░░░░░░░ |  22.1% |
-| Vue.js      | 2 hrs 14 mins  | ███▌░░░░░░░░░░░░░░░░░ |  17.1% |
-| YAML        | 54 mins        | █▍░░░░░░░░░░░░░░░░░░░ |   6.8% |
-| Stylus      | 52 mins        | █▍░░░░░░░░░░░░░░░░░░░ |   6.6% |
-| JSON        | 33 mins        | ▉░░░░░░░░░░░░░░░░░░░░ |   4.3% |
+| TypeScript  | 7 hrs 35 mins  | █████████████▊░░░░░░░ |  66.0% |
+| Rust        | 1 hr 52 mins   | ███▍░░░░░░░░░░░░░░░░░ |  16.4% |
+| YAML        | 1 hr 27 mins   | ██▋░░░░░░░░░░░░░░░░░░ |  12.7% |
+| Other       | 19 mins        | ▌░░░░░░░░░░░░░░░░░░░░ |   2.8% |
+| Git Config  | 6 mins         | ▏░░░░░░░░░░░░░░░░░░░░ |   0.9% |
+| Markdown    | 2 mins         | ░░░░░░░░░░░░░░░░░░░░░ |   0.4% |
