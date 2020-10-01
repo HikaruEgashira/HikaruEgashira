@@ -7,3 +7,5 @@
 ## this week's works
 
 {{ table }}
+
+![trophy](https://github-profile-trophy.vercel.app/?username=HikaruEgashira&theme=onedark)]
