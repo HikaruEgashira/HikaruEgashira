@@ -8,8 +8,11 @@
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| JSON        | 9 mins         | ████████████▎░░░░░░░░ |  58.4% |
-| Markdown    | 4 mins         | ██████▌░░░░░░░░░░░░░░ |  31.5% |
-| JavaScript  | 1 min          | ██▏░░░░░░░░░░░░░░░░░░ |  10.1% |
+| Bash        | 31 mins        | █████████░░░░░░░░░░░░ |  43.0% |
+| Other       | 10 mins        | ███░░░░░░░░░░░░░░░░░░ |  14.3% |
+| Vue.js      | 10 mins        | ██▉░░░░░░░░░░░░░░░░░░ |  14.0% |
+| YAML        | 8 mins         | ██▍░░░░░░░░░░░░░░░░░░ |  11.7% |
+| Markdown    | 6 mins         | █▊░░░░░░░░░░░░░░░░░░░ |   8.8% |
+| JavaScript  | 3 mins         | ▉░░░░░░░░░░░░░░░░░░░░ |   4.4% |
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=HikaruEgashira&theme=onedark)
