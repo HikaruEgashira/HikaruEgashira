@@ -8,11 +8,11 @@
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| TypeScript  | 5 hrs 28 mins  | █████████████▎░░░░░░░ |  63.1% |
-| JSON        | 1 hr 19 mins   | ███▏░░░░░░░░░░░░░░░░░ |  15.3% |
-| Rust        | 1 hr 19 mins   | ███▏░░░░░░░░░░░░░░░░░ |  15.3% |
+| TypeScript  | 5 hrs 28 mins  | ████████████▉░░░░░░░░ |  61.9% |
+| JSON        | 1 hr 27 mins   | ███▍░░░░░░░░░░░░░░░░░ |  16.4% |
+| Rust        | 1 hr 19 mins   | ███▏░░░░░░░░░░░░░░░░░ |  15.0% |
+| Other       | 12 mins        | ▍░░░░░░░░░░░░░░░░░░░░ |   2.3% |
 | JavaScript  | 10 mins        | ▍░░░░░░░░░░░░░░░░░░░░ |   2.0% |
-| Other       | 9 mins         | ▎░░░░░░░░░░░░░░░░░░░░ |   1.8% |
-| Git Config  | 3 mins         | ▏░░░░░░░░░░░░░░░░░░░░ |   0.8% |
+| Git Config  | 4 mins         | ▏░░░░░░░░░░░░░░░░░░░░ |   0.9% |
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=HikaruEgashira&theme=onedark)
