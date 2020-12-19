@@ -8,4 +8,4 @@
 
 {{ table }}
 
-![trophy](https://github-profile-trophy.vercel.app/?username=HikaruEgashira&theme=onedark)
+![trophy](https://github-profile-trophy.vercel.app/?username=HikaruEgashira&theme=flat)
