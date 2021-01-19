@@ -8,11 +8,11 @@
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| TypeScript  | 8 hrs 57 mins  | █████████░░░░░░░░░░░░ |  43.5% |
-| JSON        | 2 hrs 15 mins  | ██▎░░░░░░░░░░░░░░░░░░ |  11.0% |
-| Rust        | 2 hrs 7 mins   | ██▏░░░░░░░░░░░░░░░░░░ |  10.3% |
-| C           | 1 hr 48 mins   | █▊░░░░░░░░░░░░░░░░░░░ |   8.8% |
-| JavaScript  | 1 hr 47 mins   | █▊░░░░░░░░░░░░░░░░░░░ |   8.7% |
-| YAML        | 1 hr 32 mins   | █▌░░░░░░░░░░░░░░░░░░░ |   7.5% |
+| TypeScript  | 7 hrs 25 mins  | █████████▍░░░░░░░░░░░ |  45.0% |
+| JavaScript  | 1 hr 41 mins   | ██▏░░░░░░░░░░░░░░░░░░ |  10.3% |
+| JSON        | 1 hr 39 mins   | ██░░░░░░░░░░░░░░░░░░░ |  10.1% |
+| YAML        | 1 hr 34 mins   | ██░░░░░░░░░░░░░░░░░░░ |   9.6% |
+| C           | 1 hr 30 mins   | █▉░░░░░░░░░░░░░░░░░░░ |   9.2% |
+| Rust        | 1 hr 16 mins   | █▌░░░░░░░░░░░░░░░░░░░ |   7.7% |
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=HikaruEgashira&theme=flat)
