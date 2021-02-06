@@ -8,11 +8,11 @@
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| Python      | 8 hrs 21 mins  | ████████▎░░░░░░░░░░░░ |  39.9% |
-| TypeScript  | 5 hrs 22 mins  | █████▍░░░░░░░░░░░░░░░ |  25.6% |
+| Python      | 7 hrs 36 mins  | ███████▋░░░░░░░░░░░░░ |  36.3% |
+| TypeScript  | 5 hrs 52 mins  | █████▉░░░░░░░░░░░░░░░ |  28.1% |
 | C           | 3 hrs 27 mins  | ███▍░░░░░░░░░░░░░░░░░ |  16.5% |
 | Rust        | 1 hr 26 mins   | █▍░░░░░░░░░░░░░░░░░░░ |   6.8% |
+| JSON        | 37 mins        | ▋░░░░░░░░░░░░░░░░░░░░ |   3.0% |
 | Java        | 34 mins        | ▌░░░░░░░░░░░░░░░░░░░░ |   2.7% |
-| JSON        | 20 mins        | ▎░░░░░░░░░░░░░░░░░░░░ |   1.6% |
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=HikaruEgashira&theme=flat)
