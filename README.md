@@ -8,11 +8,11 @@
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| Vue.js      | 10 hrs 50 mins | ███████████▋░░░░░░░░░ |  55.8% |
-| TypeScript  | 7 hrs 34 mins  | ████████▏░░░░░░░░░░░░ |  39.0% |
-| JSON        | 57 mins        | █░░░░░░░░░░░░░░░░░░░░ |   4.9% |
-| SCSS        | 1 min          | ░░░░░░░░░░░░░░░░░░░░░ |   0.1% |
+| Vue.js      | 10 hrs 50 mins | ███████████▍░░░░░░░░░ |  54.6% |
+| TypeScript  | 7 hrs 49 mins  | ████████▎░░░░░░░░░░░░ |  39.4% |
+| JSON        | 1 hr 4 mins    | █▏░░░░░░░░░░░░░░░░░░░ |   5.4% |
+| Other       | 5 mins         | ░░░░░░░░░░░░░░░░░░░░░ |   0.4% |
 | JavaScript  | 0 secs         | ░░░░░░░░░░░░░░░░░░░░░ |   0.1% |
-| Makefile    | 0 secs         | ░░░░░░░░░░░░░░░░░░░░░ |   0.0% |
+| SCSS        | 0 secs         | ░░░░░░░░░░░░░░░░░░░░░ |   0.0% |
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=HikaruEgashira&theme=flat)
