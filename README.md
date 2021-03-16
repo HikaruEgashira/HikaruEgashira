@@ -8,11 +8,13 @@
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| Vue.js      | 8 hrs 5 mins   | █████████████▎░░░░░░░ |  63.7% |
-| TypeScript  | 3 hrs 25 mins  | █████▋░░░░░░░░░░░░░░░ |  27.0% |
-| JSON        | 42 mins        | █▏░░░░░░░░░░░░░░░░░░░ |   5.6% |
-| Other       | 19 mins        | ▌░░░░░░░░░░░░░░░░░░░░ |   2.5% |
-| YAML        | 4 mins         | ░░░░░░░░░░░░░░░░░░░░░ |   0.6% |
-| SCSS        | 3 mins         | ░░░░░░░░░░░░░░░░░░░░░ |   0.5% |
+| Vue.js      | 6 hrs 56 mins  | ████████████▋░░░░░░░░ |  60.4% |
+| TypeScript  | 3 hrs 16 mins  | █████▉░░░░░░░░░░░░░░░ |  28.5% |
+| JSON        | 42 mins        | █▎░░░░░░░░░░░░░░░░░░░ |   6.2% |
+| Other       | 19 mins        | ▌░░░░░░░░░░░░░░░░░░░░ |   2.8% |
+| Markdown    | 4 mins         | ▏░░░░░░░░░░░░░░░░░░░░ |   0.7% |
+| YAML        | 4 mins         | ▏░░░░░░░░░░░░░░░░░░░░ |   0.6% |
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=HikaruEgashira&theme=flat)
+
+<img src="./image/seal-csm.png" alt="" data-canonical-src="./image/seal-csm.png" width="200" height="200" />
