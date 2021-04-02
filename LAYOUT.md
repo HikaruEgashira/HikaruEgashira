@@ -8,6 +8,4 @@
 
 {{ table }}
 
-![trophy](https://github-profile-trophy.vercel.app/?username=HikaruEgashira&theme=flat)
-
 <img src="./image/seal-csm.png" alt="" data-canonical-src="./image/seal-csm.png" width="200" height="200" />
