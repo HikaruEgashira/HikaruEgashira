@@ -8,8 +8,6 @@
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| TypeScript  | 1 hr 15 mins   | ████████████████████▉ |  99.5% |
-| HTML        | 0 secs         | ░░░░░░░░░░░░░░░░░░░░░ |   0.4% |
-| JSON        | 0 secs         | ░░░░░░░░░░░░░░░░░░░░░ |   0.1% |
+| TypeScript  | 1 hr 14 mins   | █████████████████████ | 100.0% |
 
 <img src="./image/seal-csm.png" alt="" data-canonical-src="./image/seal-csm.png" width="200" height="200" />
