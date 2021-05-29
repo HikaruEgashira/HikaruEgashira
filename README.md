@@ -8,9 +8,7 @@
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| HTML        | 1 hr 1 min     | ████████████████████▋ |  98.2% |
-| Other       | 1 min          | ▎░░░░░░░░░░░░░░░░░░░░ |   1.8% |
+| Other       | 1 min          | █████████████████████ | 100.0% |
 | JSON        | 0 secs         | ░░░░░░░░░░░░░░░░░░░░░ |   0.0% |
-| Markdown    | 0 secs         | ░░░░░░░░░░░░░░░░░░░░░ |   0.0% |
 
 <img src="./image/seal-csm.png" alt="" data-canonical-src="./image/seal-csm.png" width="200" height="200" />
