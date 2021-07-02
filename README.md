@@ -11,11 +11,11 @@ Web Engineer
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| Go          | 3 hrs 22 mins  | ████▊░░░░░░░░░░░░░░░░ |  23.2% |
-| Markdown    | 3 hrs 6 mins   | ████▍░░░░░░░░░░░░░░░░ |  21.4% |
-| Python      | 2 hrs 45 mins  | ███▉░░░░░░░░░░░░░░░░░ |  18.9% |
-| TypeScript  | 1 hr 42 mins   | ██▍░░░░░░░░░░░░░░░░░░ |  11.7% |
-| Vue.js      | 53 mins        | █▎░░░░░░░░░░░░░░░░░░░ |   6.1% |
-| Bash        | 41 mins        | ▉░░░░░░░░░░░░░░░░░░░░ |   4.8% |
+| TypeScript  | 4 hrs 46 mins  | █████▎░░░░░░░░░░░░░░░ |  25.6% |
+| Go          | 3 hrs 22 mins  | ███▊░░░░░░░░░░░░░░░░░ |  18.1% |
+| Markdown    | 3 hrs 8 mins   | ███▌░░░░░░░░░░░░░░░░░ |  16.9% |
+| Python      | 2 hrs 45 mins  | ███░░░░░░░░░░░░░░░░░░ |  14.7% |
+| Vue.js      | 54 mins        | █░░░░░░░░░░░░░░░░░░░░ |   4.9% |
+| Bash        | 46 mins        | ▊░░░░░░░░░░░░░░░░░░░░ |   4.2% |
 
 <img src="./image/seal-csm.png" alt="" data-canonical-src="./image/seal-csm.png" width="200" height="200" />
