@@ -11,11 +11,11 @@ Web Engineer
 
 | lang        | time           |                       |        |
 | ----------- | -------------- | --------------------- | ------ |
-| TypeScript  | 6 hrs 2 mins   | ████████████▏░░░░░░░░ |  58.1% |
-| JSON        | 1 hr 43 mins   | ███▍░░░░░░░░░░░░░░░░░ |  16.5% |
-| JavaScript  | 59 mins        | ██░░░░░░░░░░░░░░░░░░░ |   9.6% |
-| Markdown    | 49 mins        | █▋░░░░░░░░░░░░░░░░░░░ |   8.0% |
-| YAML        | 31 mins        | █░░░░░░░░░░░░░░░░░░░░ |   5.0% |
-| Other       | 8 mins         | ▎░░░░░░░░░░░░░░░░░░░░ |   1.4% |
+| TypeScript  | 8 hrs 52 mins  | █████████████▍░░░░░░░ |  64.2% |
+| JSON        | 1 hr 56 mins   | ██▉░░░░░░░░░░░░░░░░░░ |  14.0% |
+| JavaScript  | 1 hr 10 mins   | █▊░░░░░░░░░░░░░░░░░░░ |   8.5% |
+| YAML        | 31 mins        | ▊░░░░░░░░░░░░░░░░░░░░ |   3.8% |
+| CSS         | 27 mins        | ▋░░░░░░░░░░░░░░░░░░░░ |   3.4% |
+| Markdown    | 25 mins        | ▋░░░░░░░░░░░░░░░░░░░░ |   3.1% |
 
 <img src="./image/seal-csm.png" alt="" data-canonical-src="./image/seal-csm.png" width="200" height="200" />
