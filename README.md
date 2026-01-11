@@ -8,7 +8,7 @@ Security Engineer at [@freee](https://github.com/freee)
 
 #### Pleno Project - Developing OSS privacy-first AI software.
 - [Pleno Audit](https://plenoai.com/pleno-audit) - Privacy-first Browser Extension for Personal Browser Security
-- [Pleno Transcribe](https://plenoai.com/pleno-transcribe) - Privacy-first Real-time STT(Speech-to-Text) App
+- [Pleno Live](https://plenoai.com/pleno-live) - Privacy-first Real-time STT(Speech-to-Text) App
 - [Pleno Anonymize](https://plenoai.com/pleno-anonymize) - PII Filter Backend Service
 
 #### Twin:te Project - Ex UX Designer and Frontend Lead
