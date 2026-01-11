@@ -12,8 +12,8 @@ Security Engineer at [@freee](https://github.com/freee)
 - [Pleno Anonymize](https://plenoai.com/pleno-anonymize) - PII Filter Backend Service
 
 #### Twin:te: Ex UX Designer and Frontend Lead
-https://www.twinte.net/
-https://github.com/twin-te
+- https://www.twinte.net/
+- https://github.com/twin-te
 
 #### Contact
 - [@0xhikae](https://twitter.com/0xhikae)
