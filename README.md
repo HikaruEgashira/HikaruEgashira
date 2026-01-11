@@ -11,7 +11,7 @@ Security Engineer at [@freee](https://github.com/freee)
 - [Pleno Transcribe](https://plenoai.com/pleno-transcribe) - Privacy-first Real-time STT(Speech-to-Text) App
 - [Pleno Anonymize](https://plenoai.com/pleno-anonymize) - PII Filter Backend Service
 
-#### Twin:te - Ex UX Designer and Frontend Lead
+#### Twin:te Project - Ex UX Designer and Frontend Lead
 - https://www.twinte.net/
 - https://github.com/twin-te
 
